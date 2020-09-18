@@ -13,27 +13,45 @@
         android:gravity="center"
         android:text="banner" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tl_main"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:tabGravity="start"
-        app:tabSelectedTextColor="#ff0000"
-        app:tabTextColor="#0000ff">
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shp_str_r8"
+        android:padding="3dp">
 
-        <com.google.android.material.tabs.TabItem
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tab1" />
+            app:tabGravity="start"
+            app:tabIndicator="@drawable/shp_r6"
+            app:tabIndicatorColor="#ffffff"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="52dp"
+            app:tabPaddingBottom="7dp"
+            app:tabPaddingEnd="10dp"
+            app:tabPaddingStart="10dp"
+            app:tabPaddingTop="6dp"
+            app:tabSelectedTextColor="#0e1012"
+            app:tabTextAppearance="@style/TabText"
+            app:tabTextColor="#adb5bd">
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tab2" />
-    </com.google.android.material.tabs.TabLayout>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tab1" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tab2" />
+        </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vp_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
 </LinearLayout>
