@@ -1,4 +1,4 @@
-package com.jess.tablayout
+package com.jess.tablayout.common.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

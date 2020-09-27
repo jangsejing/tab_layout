@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TabLayout</string>
+    <string name="html_message"><![CDATA[aaaaa <b><font color="#e7e7e7">bbbbbb</font></b><br>aaaaaa]]></string>
+    <string name="html_message_2"><![CDATA[<ol><li>aaaaa <b><font color="#e7e7e7">bbbbbb</font></b><br>aaaaaa</li></ol>]]></string>
 </resources>

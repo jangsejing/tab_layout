@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:background="@drawable/shp_str_r8"
+        android:background="@drawable/shp_rect_str_r8"
         android:padding="3dp">
 
         <com.google.android.material.tabs.TabLayout
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:tabGravity="start"
-            app:tabIndicator="@drawable/shp_r6"
+            app:tabIndicator="@drawable/shp_rect_r6"
             app:tabIndicatorColor="#ffffff"
             app:tabIndicatorGravity="center"
             app:tabIndicatorHeight="52dp"
